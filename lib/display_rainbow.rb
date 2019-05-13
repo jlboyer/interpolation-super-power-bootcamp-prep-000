@@ -1,5 +1,6 @@
 # Write your #display_rainbow method here
 
 def display_rainbow(colorArr)
-  colorArr.each do
+  colorArr.each do |color|
+    
     
