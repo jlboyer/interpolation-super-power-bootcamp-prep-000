@@ -2,5 +2,6 @@
 
 def display_rainbow(colorArr)
   colorArr.each do |color|
-    puts "#{color[0].toupper"
+    puts "#{color[0].upcase}: #{color}"
+    
     
