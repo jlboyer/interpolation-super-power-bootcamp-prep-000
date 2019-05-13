@@ -2,8 +2,9 @@
 
 def display_rainbow(colorArr)
   colorArr.each do |color|
-    print "#{color[0].upcase}: #{color},"
+    stringRet += "#{color[0].upcase}: #{color}, "
   end
+  
 end
 
     
