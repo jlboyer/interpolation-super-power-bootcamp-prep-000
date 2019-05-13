@@ -2,7 +2,7 @@
 
 def display_rainbow(colorArr)
   colorArr.each do |color|
-    puts "#{color[0].upcase}: #{color}"
+    print "#{color[0].upcase}: #{color},"
   end
 end
 
